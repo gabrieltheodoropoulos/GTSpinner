@@ -385,7 +385,7 @@ extension GTSpinner: CAAnimationDelegate {
         // Check if the animation that was just finished regards the trail1Animation or the trail2Animation object and:
         // - Apply the current trail color as the stroke color to the respective layer (trailLayer1 or trailLayer2).
         // - Remove all animations from the respective layer.
-        // - Set value 1 to the strokeEnd property of the respective trailer.
+        // - Set value 1 to the strokeEnd property of the respective layer.
         //
         // By doing the above the animated color will remain visible after the animation is finished and removed from its layer.
         if self.isAnimatingFirstTrailLayer {
